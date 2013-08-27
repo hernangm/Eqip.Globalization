@@ -48,6 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="DbSimpleResourceProviderFactory.cs" />
     <Compile Include="extensions\DomainParser.cs" />
     <Compile Include="extensions\StringFormatWithExtensions.cs" />
@@ -63,6 +66,7 @@
     <Compile Include="UrlBased\LocalizedWebFormViewEngine.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Eqip.Globalization.Mvc.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

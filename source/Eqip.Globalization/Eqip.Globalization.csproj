@@ -43,6 +43,9 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="GlobalizationSettings.cs" />
     <Compile Include="Utils\CultureInfoCollectionConverter.cs" />
     <Compile Include="Utils\ResourceFormatter.cs" />
@@ -54,6 +57,9 @@
     <Compile Include="DbSimpleResourceProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\ResourceParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Eqip.Globalization.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
