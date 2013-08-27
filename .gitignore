@@ -1,0 +1,9 @@
+*.nupkg
+packages/
+release/
+[Oo]bj
+[Bb]in
+*.suo
+*.user
+debug.ps1
+TestResults/
