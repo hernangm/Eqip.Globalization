@@ -6,7 +6,7 @@
         <title>$title$</title>
         <description>$description$</description>
         <authors>$author$</authors>
-        <owners>Hernan Marano</owners>
+        
         <copyright>© 2013 Hernan Marano</copyright>
         <projectUrl>https://github.com/hernangm/Eqip.Globalization</projectUrl>
         <tags>Globalization, Localization</tags>

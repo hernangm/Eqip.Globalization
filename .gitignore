@@ -7,3 +7,4 @@ release/
 *.user
 debug.ps1
 TestResults/
+build/_key.ps1
