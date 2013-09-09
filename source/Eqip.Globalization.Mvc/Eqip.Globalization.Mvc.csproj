@@ -52,8 +52,8 @@
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="DbSimpleResourceProviderFactory.cs" />
-    <Compile Include="extensions\DomainParser.cs" />
-    <Compile Include="extensions\StringFormatWithExtensions.cs" />
+    <Compile Include="_extensions\DomainParser.cs" />
+    <Compile Include="_extensions\StringFormatWithExtensions.cs" />
     <Compile Include="UrlHelperExtensions.cs" />
     <Compile Include="GlobalizationExtensions.cs" />
     <Compile Include="GlobalizationManager.cs" />
